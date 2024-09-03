@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+    width: 100%;
+}
+#mount{
+    width: 16%;
+    height: 90px;
+    color: blue;
+    border: 2px solid blue;
+    text-align: center;
+    display: inline-block;
+    margin-right: 16%;
+    margin-left: 9%;
+    transition: background-color 2s;
+    transition: height 1s;
+    padding: 5px;
+    box-shadow: 4px 4px 4px skyblue;
+}
+#bridge{
+    width: 16%;
+    height: 90px;
+    color: green;
+    border: 2px solid green;
+    text-align: center;
+    display: inline-block;
+    margin-right: 17%;
+    transition: background-color 2s;
+    transition: height 1s;
+    padding: 5px;
+    box-shadow: 4px 4px 4px lightgreen;
+}
+#snow{
+    width: 16%;
+    height: 90px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 2s;
+    transition: height 1s;
+    padding: 5px;
+    box-shadow: 4px 4px 4px gray;
+}
+#mount:hover{
+    background-color: deepskyblue;
+    color: white;
+    height: 110px;
+    transform: scale(1.2,1.2);
+}
+#bridge:hover{
+    background-color: limegreen;
+    color: white;
+    height: 110px;
+    transform: scale(1.2,1.2);
+}
+#snow:hover{
+    background-color: black;
+    color: white;
+    height: 110px;
+    transform: scale(1.2,1.2);
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 4px 3px gold;
+}
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}

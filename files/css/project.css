@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: calibri;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    color:#fff;
+    background-color: white;
+    background-image: url(../images/back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leftcol {
+    float: left;
+    width: 75%;
+}
+.tabligh {
+    background-color: #fff/*#aaa*/;
+    width: 100%;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.rightcol {
+    float: left;
+    width: 25%;
+    /*background-color: #f1f1f1;*/
+    padding-left: 20px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+@media screen and (max-width:1050px) {
+    .leftcol, .rightcol {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.rightcol .card li {
+    list-style-type: disc;
+    padding: 1px;
+}
+.rightcol .card span {
+    font-size: 23px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+.rightcol .card li a {
+    text-decoration: none;
+    font-size: 22px;
+}
+.rightcol .card li a:link{
+    color: darkgreen;
+}
+.rightcol .card li a:visited{
+    color: red;
+}
+.rightcol .card li a:hover{
+    color: blue;
+    text-decoration: underline;
+    background-color: yellow;
+}
+.rightcol .card li a:active{
+    color: indigo;
+}
+.menu1 a i{
+    padding: 2px;
+    font-size: 20px;
+}
+.menu1 ul li {
+    list-style: none;
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.container {
+    background-color: #0f8693;
+    font-size: 22px;
+    height: 53px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.menu li {
+    float: right;
+    padding: 11px 18px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s;
+    margin: 1px;
+    background-color: #0f8693;
+}
+.menu a {
+    color: #fff/*#000*/;
+}
+.menu li:hover {
+    background-color: #4caf50/*#ec407a*/;
+}
+.menu a:hover{
+    color: #fff;
+}
+.menu li ul {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: 0%;
+    display: none;
+}
+.menu li ul li {
+    width: 130%;
+}
+.menu li:hover ul {
+    display: block;
+}
+.menu li.submenu::after {
+    content: "\25BC";
+    font-size: 0.7em;
+    padding-right: 2px;
+    color: #fff;
+}
+.menu li.submenu:hover::after {
+    content: "\25B2";
+    font-size: 0.7em;
+    padding-right: 2px;
+    color: #fff;
+}
+.menu i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.animal {
+    background-image: url(../images/1640339341857.jpg);
+    background-size: 366px 123px;
+}
+@media screen and (max-width:1500px) {
+    .animal {
+        background-size: 340px 123px;
+    }
+}
+.animal h2 {
+    text-align: center;
+}
+.animal h2 a {
+    color: black;
+}
+
+.tabligh {
+    padding: 0;
+}
+.tabligh img {
+    width: 100%;
+    height: 150px;
+}
+.education h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.useful a {
+    display: block;
+    margin: 7px 17px 8px 0px;
+    color: deeppink;
+    font-size: 20.5px;
+}
+.useful a:hover {
+    text-decoration: underline;
+}
+.useful i {
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.table1 {
+    width: 100%;
+    font-size: 20px;
+}
+.table1,.table1 th,.table1 td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: calibri;
+}
+.table1 td {
+    padding: 6px 18px;
+}
+.table1 th {
+    padding: 8px;
+    background-color: #66BB6A;
+}
+.table1 .th1 {
+    background-color: #FFEE58;
+    font-size: 23px;
+    padding: 10px;
+}
+.table1 tr:nth-child(even){
+    background-color: #ccc;
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.leftpart {
+    float: left;
+    width: 33%;
+}
+.rightpart {
+    float: left;
+    width: 33%;
+    /*background-color: #f1f1f1;*/
+    padding-left: 20px;
+}
+.middlepart {
+    float: left;
+    width: 33%;
+    /*background-color: #f1f1f1;*/
+    padding-left: 20px;
+}
+
+.connect a {
+    color: black;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 26px;
+}
+.connect {
+    padding-bottom: 30px;
+}
+.info {
+    padding-bottom: 18px;
+}
+.connect, .extra, .info {
+    margin-top: 5px;
+}
+.icon1:hover {
+    color: black;
+    opacity: 1;
+}
+.icon2:hover {
+    color: deepskyblue;
+    opacity: 1;
+}
+.icon3:hover {
+    color: green;
+    opacity: 1;
+}
+.icon4:hover {
+    color: darkviolet;
+    opacity: 1;
+}
+.icon5:hover {
+    color: dodgerblue;
+    opacity: 1;
+}
+/*.icon1 {
+    color: black;
+}
+.icon2 {
+    color: deepskyblue;
+}
+.icon3 {
+    color: green;
+}
+.icon4 {
+    color: darkviolet;
+}
+.icon5 {
+    color: dodgerblue;
+}*/
+.extra .title {
+    margin-top: 5px;
+}
+.extra a {
+    color: black;
+}
+.extra a:hover {
+    text-decoration: underline;
+}

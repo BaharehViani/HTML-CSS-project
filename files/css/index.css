@@ -1,0 +1,55 @@
+* {
+    direction: rtl;
+    font-family: b nazanin;
+}
+.first{
+    font-size: 29px;
+}
+.introduction {
+    width: 60%;
+    margin: auto;
+    background-color: burlywood;
+    text-align: center;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.sessions {
+    width: 15.3%;
+    height: 415px;
+    background-color: beige;
+    margin-right: 19.3%;
+    padding: 0.6%;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align:middle;
+}
+li {
+    font-size: 26px;
+    list-style-type: disc;
+}
+img {
+    width: 43%;
+    height: 440px;
+    vertical-align:middle;
+    padding: 1%;
+    border-radius: 15px 50px
+}
+a {
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    background-color: yellow;
+}
+a:active{
+    color: indigo;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> بهاره ویانی </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-size: 19px;">
+    <style>
+        .big {
+            font-size: 18px;
+        }
+    </style>
+    <form dir="rtl">
+        <fieldset>
+            <legend> اطلاعات شخصی </legend>
+            نام: <input type="text" name="first_name" placeholder="نام خود را وارد کنید"> <br><br>
+            نام خانوادگی: <input type="text" name="last_name" placeholder="نام خانوداگی خود را وارد کنید"> <br><br>
+            جنسیت:
+            زن <input type="checkbox" name="woman">
+            مرد <input type="checkbox" name="man"> <br><br>
+            کد ملی: <input type="text" name="id"> <br><br>
+            شماره موبایل: <input type="text" name="phone_number"> <br><br>
+            تاریخ تولد: <input type="date"> <br><br>
+            ایمیل: <input type="email"> <br><br>
+            استان:
+            <select>
+                <option>استان محل زندگی خود را انتخاب کنید</option>
+                <option>آذربایجان شرقی</option>
+                <option>آذربایجان غربی</option>
+                <option>تهران</option>
+                <option>کرمانشاه</option>
+                <option>اصفهان</option>
+                <option>کهگیلویه و بویراحمد</option>
+                <option>یزد</option>
+                <option>گلستان</option>
+            </select> <br><br>
+            آدرس: <textarea placeholder="آدرس محل زندگی خوذ را وارد کنید" cols="40" rows="3"></textarea> <br><br>
+            عکس پرسنلی: <input type="file">
+        </fieldset>
+        
+        <br>
+        
+        <fieldset>
+            <legend> اطلاعات تحصیلی </legend>
+            نام مدرسه: <input type="text"> <br><br>
+            نام دانشگاه: <input type="text"> <br><br>
+            مدرک تحصیلی:
+            <select>
+                    <option>مدرک تحصیلی را انتخاب کنید</option>
+                <optgroup label="دیپلم">
+                    <option>ریاضی</option>
+                    <option>تجربی</option>
+                    <option>انسانی</option>
+                    <option>فنی و حرفه ای</option>
+                </optgroup>
+                <optgroup label="لیسانس">
+                    <option>مهندسی صنایع</option>
+                    <option>مهندسی شیمی</option>
+                    <option>معماری</option>
+                    <option>مهندسی کامپیوتر</option>
+                </optgroup>
+                <optgroup label="فوق لیسانس">
+                    <option>فناوری اطلاعات</option>
+                    <option>مهندسی برق</option>
+                    <option>مهندسی عمران</option>
+                </optgroup>
+            </select>
+            
+        </fieldset>
+        
+        <br>
+        
+        <fieldset>
+            <legend> علاقه مندی ها </legend>
+            ورزش مورد علاقه خود را انتخاب کنید <br>
+            فوتبال <input type="checkbox">
+            والیبال <input type="checkbox">
+            بسکتبال <input type="checkbox">
+            شنا <input type="checkbox"> <br><br>
+            رنگ مورد علاقه خود را انتخاب کنید 
+            <input type="color">
+        </fieldset> <br>
+            <input type="submit" value="تایید و ارسال اطلاعات" class="big">
+            <input type="reset" value="بازنویسی" class="big">
+    </form>
+
+    <br><br><br>
+</body>
+</html> 

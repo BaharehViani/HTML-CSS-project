@@ -1,0 +1,140 @@
+body {
+    font-family: b mitra;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+.column {
+    display: inline-block;
+    margin-left: 4.4%;
+    margin-bottom: 4%;
+}
+.column div {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 0;   
+}
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.hover1 figure img {
+    transition: 0.3s;
+}
+.hover1 figure:hover img {
+    transform: scale(1.2);
+}
+.hover2 figure img {
+    transition: 0.3s;
+    transform: scale(1.4);
+}
+.hover2 figure:hover img {
+    transform: scale(1.1);
+}
+.hover3 figure img {
+    transition: 0.3s;
+    transform: scale(1.4) rotate(10deg);
+}
+.hover3 figure:hover img {
+    transform: scale(1.1) rotate(0);
+}
+.hover4 figure img {
+    transition: 0.3s;
+    opacity: 0.3;
+}
+.hover4 figure:hover img {
+    opacity: 1;
+}
+.hover5 figure img {
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+.hover5 figure:hover img {
+    filter: grayscale(0);
+}
+.hover6 figure img {
+    transition: 0.3s;
+    filter: sepia(100%);
+}
+.hover6 figure:hover img {
+    filter: sepia(0);
+}
+.hover7 figure img {
+    transition: 0.3s;
+}
+.hover7 figure:hover img {
+    filter: blur(3px);
+}
+.hover8 figure img {
+    transition: 0.3s;
+    filter: blur(5px);
+}
+.hover8 figure:hover img {
+    filter: blur(0px);
+    transform: translateY(-10px);
+}
+.hover9 figure {
+    background-color: #1abc9c;
+}
+.hover9 figure img {
+    transition: 0.3s;
+    opacity: 1;
+}
+.hover9 figure:hover img {
+    opacity: 0.3;
+}
+@media only screen and (max-width:1570px){
+    .column {
+    margin-left: 4.28%;
+    margin-bottom: 3.9%;
+    }
+}
+@media only screen and (max-width:1510px){
+    .column {
+    margin-left: 4%;
+    margin-bottom: 3.8%;
+    }
+}
+@media only screen and (max-width:1490px){
+    .column {
+    margin-left: 3.1%;
+    margin-bottom: 3%;
+    }
+}
+@media only screen and (max-width:1440px){
+    .column {
+    margin-left: 2.7%;
+    margin-bottom: 2.3%;
+    }
+}
+@media only screen and (max-width:1390px){
+    .column {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width:1361px){
+    .column {
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    }
+}
+@media only screen and (max-width:1315px){
+    .column {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    }
+}
+@media only screen and (max-width:1295px){
+    .column {
+    margin-left: 0.7%;
+    margin-bottom: 0.7%;
+    }
+}
