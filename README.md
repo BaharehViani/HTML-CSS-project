@@ -1,2 +1,2 @@
-# HTML-CSS-project
-a simple website with HTML &amp; CSS
+## وبسایت ساده با HTML و CSS
+اولین پروژه تمرینی من که چند سال پیش برای درس کارگاه کامپیوتر با HTML و CSS نوشتم.
